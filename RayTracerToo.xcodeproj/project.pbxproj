@@ -11,6 +11,18 @@
 		386EE9012C83D5A400B05580 /* Tuple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 386EE8FF2C83D5A400B05580 /* Tuple.cpp */; };
 		386EE91C2C83D6D400B05580 /* Tuple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 386EE8FF2C83D5A400B05580 /* Tuple.cpp */; };
 		386EE91E2C83D93600B05580 /* TestTuples.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE91D2C83D93600B05580 /* TestTuples.mm */; };
+		386EE9232C83FDE200B05580 /* TestCameras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE9222C83FDE200B05580 /* TestCameras.mm */; };
+		386EE9252C83FE2E00B05580 /* TestCanvases.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE9242C83FE2E00B05580 /* TestCanvases.mm */; };
+		386EE9272C83FE6C00B05580 /* TestIntersections.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE9262C83FE6C00B05580 /* TestIntersections.mm */; };
+		386EE9292C83FEB000B05580 /* TestLights.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE9282C83FEB000B05580 /* TestLights.mm */; };
+		386EE92B2C83FEF200B05580 /* TestWorlds.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE92A2C83FEF200B05580 /* TestWorlds.mm */; };
+		386EE92D2C83FF4500B05580 /* TestMaterials.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE92C2C83FF4500B05580 /* TestMaterials.mm */; };
+		386EE92F2C83FF9200B05580 /* TestSpheres.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE92E2C83FF9200B05580 /* TestSpheres.mm */; };
+		386EE9312C83FFF800B05580 /* TestRayRays.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE9302C83FFF800B05580 /* TestRayRays.mm */; };
+		386EE9332C84009000B05580 /* TestMatrices.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE9322C84009000B05580 /* TestMatrices.mm */; };
+		386EE9352C8400CD00B05580 /* TestMatrixTransformations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE9342C8400CD00B05580 /* TestMatrixTransformations.mm */; };
+		386EE9372C84010000B05580 /* TestPPMFileFormat.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE9362C84010000B05580 /* TestPPMFileFormat.mm */; };
+		386EE9392C84012500B05580 /* TestRandomShapes.mm in Sources */ = {isa = PBXBuildFile; fileRef = 386EE9382C84012500B05580 /* TestRandomShapes.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,26 +41,25 @@
 		386EE8E92C83D56300B05580 /* RayTracerToo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracerToo; sourceTree = BUILT_PRODUCTS_DIR; };
 		386EE8EC2C83D56300B05580 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		386EE8F72C83D58700B05580 /* RayTracerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayTracerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		386EE8F92C83D58700B05580 /* RayTracerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayTracerTests.swift; sourceTree = "<group>"; };
 		386EE8FE2C83D5A400B05580 /* Config.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Config.hpp; sourceTree = "<group>"; };
 		386EE8FF2C83D5A400B05580 /* Tuple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tuple.cpp; sourceTree = "<group>"; };
 		386EE9002C83D5A400B05580 /* Tuple.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tuple.hpp; sourceTree = "<group>"; };
-		386EE9022C83D5B000B05580 /* TestWorlds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWorlds.swift; sourceTree = "<group>"; };
-		386EE9032C83D5B000B05580 /* TestMatrixTransformations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrixTransformations.swift; sourceTree = "<group>"; };
-		386EE9042C83D5B000B05580 /* TestSpheres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSpheres.swift; sourceTree = "<group>"; };
-		386EE9052C83D5B000B05580 /* TestPPMFileFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPPMFileFormat.swift; sourceTree = "<group>"; };
-		386EE9062C83D5B000B05580 /* TestLights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLights.swift; sourceTree = "<group>"; };
-		386EE9072C83D5B000B05580 /* TestMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMaterials.swift; sourceTree = "<group>"; };
-		386EE9092C83D5B000B05580 /* TestCameras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCameras.swift; sourceTree = "<group>"; };
-		386EE90A2C83D5B000B05580 /* TestMatrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMatrices.swift; sourceTree = "<group>"; };
-		386EE90B2C83D5B000B05580 /* TestIntersections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIntersections.swift; sourceTree = "<group>"; };
-		386EE90C2C83D5B000B05580 /* TestRayRays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRayRays.swift; sourceTree = "<group>"; };
-		386EE90D2C83D5B000B05580 /* TestRandomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRandomShapes.swift; sourceTree = "<group>"; };
-		386EE90E2C83D5B000B05580 /* TestCanvases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCanvases.swift; sourceTree = "<group>"; };
 		386EE91D2C83D93600B05580 /* TestTuples.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestTuples.mm; sourceTree = "<group>"; };
 		386EE91F2C83DE9700B05580 /* Point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
 		386EE9202C83E0F100B05580 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		386EE9212C83EE3C00B05580 /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
+		386EE9222C83FDE200B05580 /* TestCameras.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestCameras.mm; sourceTree = "<group>"; };
+		386EE9242C83FE2E00B05580 /* TestCanvases.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestCanvases.mm; sourceTree = "<group>"; };
+		386EE9262C83FE6C00B05580 /* TestIntersections.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestIntersections.mm; sourceTree = "<group>"; };
+		386EE9282C83FEB000B05580 /* TestLights.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestLights.mm; sourceTree = "<group>"; };
+		386EE92A2C83FEF200B05580 /* TestWorlds.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestWorlds.mm; sourceTree = "<group>"; };
+		386EE92C2C83FF4500B05580 /* TestMaterials.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestMaterials.mm; sourceTree = "<group>"; };
+		386EE92E2C83FF9200B05580 /* TestSpheres.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestSpheres.mm; sourceTree = "<group>"; };
+		386EE9302C83FFF800B05580 /* TestRayRays.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestRayRays.mm; sourceTree = "<group>"; };
+		386EE9322C84009000B05580 /* TestMatrices.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestMatrices.mm; sourceTree = "<group>"; };
+		386EE9342C8400CD00B05580 /* TestMatrixTransformations.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestMatrixTransformations.mm; sourceTree = "<group>"; };
+		386EE9362C84010000B05580 /* TestPPMFileFormat.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestPPMFileFormat.mm; sourceTree = "<group>"; };
+		386EE9382C84012500B05580 /* TestRandomShapes.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestRandomShapes.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,20 +115,19 @@
 		386EE8F82C83D58700B05580 /* RayTracerTests */ = {
 			isa = PBXGroup;
 			children = (
-				386EE9092C83D5B000B05580 /* TestCameras.swift */,
-				386EE90E2C83D5B000B05580 /* TestCanvases.swift */,
-				386EE90B2C83D5B000B05580 /* TestIntersections.swift */,
-				386EE9062C83D5B000B05580 /* TestLights.swift */,
-				386EE9072C83D5B000B05580 /* TestMaterials.swift */,
-				386EE90A2C83D5B000B05580 /* TestMatrices.swift */,
-				386EE9032C83D5B000B05580 /* TestMatrixTransformations.swift */,
-				386EE9052C83D5B000B05580 /* TestPPMFileFormat.swift */,
-				386EE90D2C83D5B000B05580 /* TestRandomShapes.swift */,
-				386EE90C2C83D5B000B05580 /* TestRayRays.swift */,
-				386EE9042C83D5B000B05580 /* TestSpheres.swift */,
+				386EE9242C83FE2E00B05580 /* TestCanvases.mm */,
+				386EE9262C83FE6C00B05580 /* TestIntersections.mm */,
+				386EE9282C83FEB000B05580 /* TestLights.mm */,
+				386EE92C2C83FF4500B05580 /* TestMaterials.mm */,
+				386EE9322C84009000B05580 /* TestMatrices.mm */,
+				386EE9342C8400CD00B05580 /* TestMatrixTransformations.mm */,
+				386EE9362C84010000B05580 /* TestPPMFileFormat.mm */,
+				386EE9382C84012500B05580 /* TestRandomShapes.mm */,
+				386EE9302C83FFF800B05580 /* TestRayRays.mm */,
+				386EE92E2C83FF9200B05580 /* TestSpheres.mm */,
 				386EE91D2C83D93600B05580 /* TestTuples.mm */,
-				386EE9022C83D5B000B05580 /* TestWorlds.swift */,
-				386EE8F92C83D58700B05580 /* RayTracerTests.swift */,
+				386EE9222C83FDE200B05580 /* TestCameras.mm */,
+				386EE92A2C83FEF200B05580 /* TestWorlds.mm */,
 			);
 			path = RayTracerTests;
 			sourceTree = "<group>";
@@ -220,8 +230,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386EE9232C83FDE200B05580 /* TestCameras.mm in Sources */,
+				386EE9352C8400CD00B05580 /* TestMatrixTransformations.mm in Sources */,
+				386EE9252C83FE2E00B05580 /* TestCanvases.mm in Sources */,
+				386EE9272C83FE6C00B05580 /* TestIntersections.mm in Sources */,
+				386EE9392C84012500B05580 /* TestRandomShapes.mm in Sources */,
+				386EE92F2C83FF9200B05580 /* TestSpheres.mm in Sources */,
+				386EE9372C84010000B05580 /* TestPPMFileFormat.mm in Sources */,
+				386EE92B2C83FEF200B05580 /* TestWorlds.mm in Sources */,
+				386EE9332C84009000B05580 /* TestMatrices.mm in Sources */,
+				386EE92D2C83FF4500B05580 /* TestMaterials.mm in Sources */,
 				386EE91E2C83D93600B05580 /* TestTuples.mm in Sources */,
+				386EE9292C83FEB000B05580 /* TestLights.mm in Sources */,
 				386EE91C2C83D6D400B05580 /* Tuple.cpp in Sources */,
+				386EE9312C83FFF800B05580 /* TestRayRays.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
